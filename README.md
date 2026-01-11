@@ -1,4 +1,4 @@
-# Electricity Price Prediction (SE3) from Weather Data 🇸🇪⚡
+# Electricity Price Prediction (SE3) from Weather Data
 
 This project predicts Swedish electricity prices in price area SE3 using weather data from selected cities. It uses Hopsworks Feature Store for feature storage and runs daily pipelines with GitHub Actions.
 

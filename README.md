@@ -18,7 +18,7 @@ Runs daily weather update + batch inference notebooks automatically
 
 locations.json: city names + coordinates (sanitized lowercase names)
 
-backfill_weather_data_2.ipynb: backfills historical weather (wide format)
+backfill_weather_data.ipynb: backfills historical weather (wide format)
 
 backfill_electricity_prices_hourly.ipynb: backfills electricity prices and aggregates to hourly
 
@@ -33,6 +33,8 @@ batch_inference_pipeline.ipynb: loads model and generates predictions
 Weather feature group: wide hourly weather features, joined via weather_key + time
 
 Electricity feature group: hourly price data (label = sek_per_kwh) with weather_key for joins
+
+Predicted price feature group: saves the predictions for monitoring
 
 ## Automation (GitHub Actions)
 A scheduled workflow runs:

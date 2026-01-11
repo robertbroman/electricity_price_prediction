@@ -52,3 +52,11 @@ HOPSWORKS_PROJECT
 ## Notes
 
 All timestamps are handled in UTC to avoid mismatch.
+
+## UI
+
+There is a UI for the predictions and monitoring available at:
+https://id2223.streamlit.app/
+
+With its corresponding github repository:
+https://github.com/AtleJohansson/Project-ID2223

@@ -16,7 +16,7 @@ Runs daily weather update + batch inference notebooks automatically
 
 ## Files
 
-locations.json: city names + coordinates (sanitized lowercase names)
+locations.json: city names + coordinates (sanitized lowercase names), cities used for weather data
 
 backfill_weather_data.ipynb: backfills historical weather (wide format)
 

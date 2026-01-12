@@ -1,6 +1,6 @@
 # Electricity Price Prediction (SE3) from Weather Data
 
-This project predicts Swedish electricity prices in price area SE3 using weather data from selected cities. It uses Hopsworks Feature Store for feature storage and runs daily pipelines with GitHub Actions.
+This project predicts Swedish electricity prices in price area SE3 using weather data from selected cities. It uses Hopsworks Feature Store for feature storage and runs daily pipelines with GitHub Actions. Made as a final project in the course ID2223 at KTH by Robert Broman and Atle Johansson.
 
 ## What it does
 
@@ -16,7 +16,7 @@ Runs daily weather update + batch inference notebooks automatically
 
 ## Files
 
-locations.json: city names + coordinates (sanitized lowercase names)
+locations.json: city names + coordinates (sanitized lowercase names), cities used for weather data
 
 backfill_weather_data.ipynb: backfills historical weather (wide format)
 
@@ -52,3 +52,11 @@ HOPSWORKS_PROJECT
 ## Notes
 
 All timestamps are handled in UTC to avoid mismatch.
+
+## UI
+
+There is a UI for the predictions and monitoring available at:
+https://id2223.streamlit.app/
+
+With its corresponding github repository:
+https://github.com/AtleJohansson/Project-ID2223
